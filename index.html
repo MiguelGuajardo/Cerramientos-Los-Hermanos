@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <title>Document</title>
+  </head>
+  <body class="fondo-pantalla">
+    <div
+      id="arriba"
+      class="container-fluid d-flex w-100 h-100 p-3 mx-auto flex-column"
+    >
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark rounded-3 p-5 border-bottom border-danger border-5"
+      >
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav d-flex w-100 justify-content-around">
+              <li class="nav-item">
+                <a
+                  class="nav-link active fs-3 text-underline-hover"
+                  aria-current="page"
+                  href="index.html"
+                  >INICIO</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active fs-3 text-underline-hover"
+                  href="#empresa"
+                  >EMPRESA</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fs-3 text-underline-hover" href="#"
+                  >TRABAJOS REALIZADOS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active fs-3 text-underline-hover"
+                  href="#presupuesto"
+                  >PRESUPUESTO</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fs-3 text-underline-hover" href="#"
+                  >CONTACTO</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <a
+        href="#arriba"
+        id="boton"
+        class="btn btn-danger p-3"
+        tabindex="-1"
+        role="button"
+        >Ir arriba</a
+      >
+      <div id="btn-img" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#btn-img"
+            data-bs-slide-to="0"
+            class="active"
+            style="background-color: rgb(255, 1, 0); height: 0.5rem"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#btn-img"
+            data-bs-slide-to="1"
+            style="background-color: rgb(255, 1, 0); height: 0.5rem"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#btn-img"
+            data-bs-slide-to="2"
+            style="background-color: rgb(255, 1, 0); height: 0.5rem"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#btn-img"
+            data-bs-slide-to="3"
+            style="background-color: rgb(255, 1, 0); height: 0.5rem"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#btn-img"
+            data-bs-slide-to="4"
+            style="background-color: rgb(255, 1, 0); height: 0.5rem"
+            aria-label="Slide 5"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="img/cerramientosIntegrales.jpg"
+              class="d-block w-100"
+              alt="cerramientos Integrales"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="fs-1 bg-dark text-light bg-gradient">
+                CERRAMIENTOS INTEGRALES
+              </h2>
+              <p class="fs-3 bg-dark bg-gradient">
+                BALCONES, QUINCHOS Y TERRAZAS.
+              </p>
+              <a class="no-estilo" href="#presupuesto"
+                ><button class="botón">SOLICITE PRESUPUESTO</button></a
+              >
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/TechosFijosCorredizosAutomatizados.jpg"
+              class="d-block w-100"
+              alt="Techos Fijos y Corredizos Automatizados"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="fs-1 bg-dark text-light bg-gradient">
+                TECHOS FIJOS Y CORREDIZOS AUTOMATIZADOS
+              </h2>
+              <p class="fs-3 bg-dark bg-gradient">
+                CIEGOS, TRANSLUCIDOS O COMBINADOS.
+              </p>
+              <a class="no-estilo" href="#presupuesto"
+                ><button class="botón">SOLICITE PRESUPUESTO</button></a
+              >
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/AberturasDeAltaPrestación.jpg"
+              class="d-block w-100"
+              alt="Aberturas De Alta Prestación"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="fs-1 bg-dark text-light bg-gradient">
+                ABERTURAS DE ALTA PRESTACIÓN
+              </h2>
+              <p class="fs-3 bg-dark bg-gradient">ALUMINIO Y PVC.</p>
+              <a class="no-estilo" href="#presupuesto"
+                ><button class="botón">SOLICITE PRESUPUESTO</button></a
+              >
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/GaleriasYPérgolas.jpg"
+              class="d-block w-100"
+              alt="Galerías Y Pergolas"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="fs-1 bg-dark bg-gradient">GALERÍAS Y PERGOLAS</h2>
+              <a class="no-estilo" href="#presupuesto"
+                ><button class="botón">SOLICITE PRESUPUESTO</button></a
+              >
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/PuertasCorredizas,TelescópicasPlegadizas.jpg"
+              class="d-block w-100"
+              alt="Puertas corredizas, telescópicas y plegadizas"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="fs-1 bg-dark bg-gradient">
+                PUERTAS CORREDIZAS, TELESCÓPICA Y PLEGADAS
+              </h2>
+              <a class="no-estilo" href="#presupuesto"
+                ><button class="botón">SOLICITE PRESUPUESTO</button></a
+              >
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#btn-img"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon"
+            aria-hidden="true"
+            style="background-color: rgb(255, 1, 0)"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#btn-img"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon"
+            aria-hidden="true"
+            style="background-color: rgb(255, 1, 0)"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div id="empresa" class="container position-relative">
+      <div class="row">
+        <div class="col justify-content-center text-light">
+          <h2 class="h2 text-light pb-5" style="padding-top: 10rem">EMPRESA</h2>
+          <p class="h2 fs-3 text-light" style="padding-bottom: 10rem">
+            SOMOS UNA EMPRESA CON VARIOS AÑOS DE ACTIVIDAD OFRECIENDO A SUS
+            CLIENTES SERIEDAD Y PROFESIONALIDAD A LA HORA DE DESARROLLAR TODO
+            TIPO DE PROYECTOS. NUESTROS TRABAJOS COMO NUESTRA FILOSOFÍA TIENES
+            EN COMÚN LA SOLIDEZ QUE DA CONFIANZA.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid position-relative bg-light">
+      <div class="row">
+        <div class="col justify-content-center mb-5">
+          <h2 class="h2 text-dark pb-5 pt-5">TRABAJOS REALIZADOS</h2>
+          <p class="h2 fs-3 text-dark pb-5 pe-5 ps-5">
+            EN LA SECCIÓN TRABAJOS REALIZADOS PODRÁ ENCONTRAR INFORMACIÓN
+            REFERIDA A NUESTROS TRABAJOS, PODRÁ VER FOTOS E INFORMACIÓN
+            ACTUALIZADA DE LO QUE VAMOS REALIZANDO.
+          </p>
+          <button class="botón">TRABAJOS REALIZADOS</button>
+        </div>
+      </div>
+    </div>
+    <div id="presupuesto" class="container position-relative text-light">
+      <div class="row">
+        <div class="col">
+          <form action="">
+            <h2 class="h2 text-light pb-5 pt-5">PRESUPUESTO</h2>
+            <p class="h2 fs-3 text-light pb-5 pe-5 ps-5">
+              COMPLETE NUESTRO FORMULARIO DE SOLICITUD DE PRESUPUESTO PARA QUE
+              PODAMOS BRINDALE UN PRESUPUESTO ACORDE A SUS NECESIDADES, ESTAMOS
+              PARA SERVIRLE.
+            </p>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label fs-3 pt-5"
+                >Nombre:</label
+              >
+              <input
+                type="name"
+                class="form-control fs-4"
+                id="exampleFormControlInput1"
+                placeholder="Su Nombre"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label fs-3"
+                >Email:</label
+              >
+              <input
+                type="email"
+                class="form-control fs-4"
+                id="exampleFormControlInput1"
+                placeholder="name@example.com"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label fs-3"
+                >Teléfono/WhatsApp:</label
+              >
+              <input
+                type="number"
+                name="numero"
+                class="form-control fs-4"
+                id="exampleFormControlInput1"
+                placeholder="Su teléfono de contacto y/o WhatsApp"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label fs-3"
+                >Barrio:</label
+              >
+              <input
+                type="email"
+                class="form-control fs-4"
+                id="exampleFormControlInput1"
+                placeholder="Su Barrio / Zona"
+              />
+            </div>
+            <div class="mb_3">
+              <label for="exampleFormControlInput1" class="form-label fs-3"
+                >Tipo de Trabajo:</label
+              >
+              <select
+                class="form-select fs-4"
+                aria-label="Default select example"
+              >
+                <option selected disabled>SELECCIONE UN TIPO DE TRABAJO</option>
+                <option value="1">Techos fijos</option>
+                <option value="2">Techos corredizos Automatizados</option>
+                <option value="3">Puertas plegadizas y telescópicas</option>
+                <option value="4">cerramientos Integrales</option>
+                <option value="5">Galerías</option>
+                <option value="6">Aberturas de alta prestación</option>
+                <option value="7">Jardines de invierno</option>
+                <option value="8">Balcones</option>
+                <option value="9">Divisores de oficinas</option>
+                <option value="10">Barandas</option>
+                <option value="11">Quinchos</option>
+                <option value="12">D.V.H y templados</option>
+                <option value="13">Cercos para piscinas y decks</option>
+                <option value="14">Frentes comerciales y edificios</option>
+                <option value="15">Otro...</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label fs-3"
+                >Comentario:</label
+              >
+              <textarea
+                placeholder="Tu mensaje"
+                class="form-control fs-4"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <button
+              type="reset"
+              class="btn btn-warning pe-0 ps-0 mt-1 mb-5 pt-2 pb-2 fs-3"
+              style="width: 100%"
+            >
+              Borrar
+            </button>
+            <button
+              type="submit"
+              class="btn btn-warning pe-0 ps-0 mt-1 mb-5 pt-2 pb-2 fs-3"
+              style="width: 100%"
+            >
+              Enviar
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid position-relative bg-warning">
+      <div class="row">
+        <div class="col justify-content-center mb-5">
+          <h2 class="h2 text-dark pt-5">
+            NUESTROS TRABAJOS COMO NUESTRA FILOSOFÍA TIENEN EN COMÚN LA
+            <span class="text-primary"
+              ><strong> SOLIDEZ QUE DA CONFIANZA.</strong></span
+            >
+          </h2>
+          <h4>
+            <span class="text-primary pb-5"
+              >Sus consultas no molestan, estamos para servirle.</span
+            >
+          </h4>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
