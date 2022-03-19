@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .fondo-pantalla {
-  background: url("/img/cerramientosIntegrales.jpg");
+  background: url("file:///D:/Accesos%20rapidos/Escritorio/CURSO%20PROGRAMACION%20WEB/PROYECTOS/CerramientosLosHermanos/img/cerramientosIntegrales.jpg");
   text-align: center;
   background-position: center center;
   background-size: cover;
